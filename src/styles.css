@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body,
+html,
+h1 {
+  margin: 0;
+  color: lightgray;
+}
+
+.container {
+  position: relative;
+  top: 40%;
+  text-align: center;
+}
+
+input {
+  border-radius: 10px;
+  background-color: #535d69;
+  width: 35%;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-top: 15px;
+  letter-spacing: 0.5rem;
+}
+
+::placeholder {
+  letter-spacing: normal;
+  color: darkgray;
+}
+
+h1 {
+  padding-bottom: 25px;
+}
